@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodSoft</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="nav-logo">
+            <!-- <img src="CodSoft.png" alt="CodSoft" height="100"/> -->
+        </div>
+        <div class="nav-content">
+            <ul>
+                <li><a href="Landing.html">Home</a></li>
+                <li><a href="#intro">About Us</a></li>
+                <li><a href="#codsoft-web">Services</a></li>
+                <li>Jobs</li>
+                <li>Products</li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="mobile-bar">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <main>
+        <section id="vanta-globe">
+            <div class="Codsoft-slogan">
+                <h1>Take Your Career to the Next Level with </h1>
+                <h1 class="Codsoft">CodSoft</h1>
+                <h3>Join Our Exciting Internship Journey</h3>
+                <button class="codsoft-intern"><h3>Apply</h3></button>
+            </div>
+            <div class="codsoft-globe">
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+                <script>
+                    document.addEventListener('DOMContentLoaded', function () {
+                        VANTA.GLOBE({
+                            el: "#vanta-globe",
+                            mouseControls: true,
+                            touchControls: true,
+                            gyroControls: false,
+                            minHeight: 200.00,
+                            minWidth: 200.00,
+                            scale: 1.00,
+                            scaleMobile: 1.00
+                        });
+                    });
+                </script>
+            </div>
+        </section>
+        <section class="intro" id="intro">
+            <div class="codsoft-about">
+                <h1 class="codsoft-intoduction">Who We Are</h1>
+                <div class="codsoft-intro">
+                    <h3>CodSoft</h3>
+                    <p>are IT services and IT consultancy that specializes in creating innovative solutions for businesses. We are passionate about technology and believe in the power of software to transform the world. Our internship program is just one of the ways in which we are investing in the future of the industry.</p>
+                </div>
+                <div class="codsoft-intro">
+                    <h3>CodSoft,</h3>
+                    <p>we believe practical knowledge is the key to success in the tech industry. Our aim is to help students lacking basic skills by offering hands-on learning through live projects and real-world examples.</p>
+                </div>
+            </div>
+            <!-- <div class="intro-photo"><img src=></div> -->
+        </section>
+        <section class="codsoft-web" id="codsoft-web">
+            <h1 class="codsoft-services"><u>We Provide All Exclusive Services</u></h1>
+            <div class="codsoft-info">
+                <!-- <img src= height="340px"/> -->
+                <div>
+                    <h1>We build websites and web applications.</h1>
+                    <p>Today, every business should have a website.</p>
+                    <p>No matter how small or large your business, having a website is must have at this time.</p>
+                    <p>Having a website help you to maintain your online presence.</p>
+                </div>
+            </div>
+        </section>
+        <section class="codsoft-business">
+            <h1 class="codsoft-services">Need website for your business?</h1>
+            <div class="codsoft-info">
+                <div>
+                    <h1>We build websites and web applications.</h1>
+                    <p>Today, every business should have a website.</p>
+                    <p>No matter how small or large your business, having a website is must have at this time.</p>
+                    <p>Having a website help you to maintain your online presence.</p>
+                </div>
+                <!-- <img src="" height="340px"/> -->
+            </div>
+        </section>
+        <section class="codsoft-growth">
+            <h1 class="codsoft-services">Need website for your business?</h1>
+            <div class="codsoft-growthinfo">
+                <p>Connect with a community of individuals who share your vision, unlocking boundless opportunities and fostering personal growth as you pursue success.</p>
+            </div>
+            <div class="growth-status">
+                <div><h1>240k+</h1>
+                <p>LinkedIn Community</p></div>
+                <div><h1>90k+</h1>
+                <p>Telegram Community</p></div>
+                <div><h1>20k+</h1><p>Instagram Community</p></div>
+                <div><h1>6k+</h1><p>Facebook Community</p></div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h1>Get in Touch</h1>
+            <form action="/submit_contact_form" method="post">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="codsoft-footer">
+            <div>
+                <h2>Useful Links</h2>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Internship</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Legal Links</h2>
+                <ul>
+                    <li>Privacy Policy</li>
+                    <li>Refund Policy</li>
+                    <li>Terms and Condition</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Contact Info</h2>
+                <p>Email: contact@codsoft.in</p>
+            </div>
+        </div>
+        <div class="links">
+            <h2>Follow Us</h2>
+            <div class="contact-link">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-regular fa-envelope"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-telegram"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
